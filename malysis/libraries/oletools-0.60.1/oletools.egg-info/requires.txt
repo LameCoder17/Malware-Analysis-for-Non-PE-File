@@ -1,0 +1,11 @@
+pyparsing<3,>=2.1.0
+olefile>=0.46
+easygui
+colorclass
+pcodedmp>=1.2.5
+
+[:platform_python_implementation != "PyPy" or (python_version >= "3" and platform_system != "Windows" and platform_system != "Darwin")]
+msoffcrypto-tool
+
+[full]
+XLMMacroDeobfuscator
